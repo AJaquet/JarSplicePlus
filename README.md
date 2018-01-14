@@ -1,19 +1,16 @@
-JarSplicePlus
-=============
+Originaltext von Luis Quesada übersetzt in die deutsche Sprache.
 
-JarSplicePlus (Jar File Merger - An Extension to JarSplice).  
+JarSplicePlus (Deutsche Version)
+================================
+
+JarSplicePlus (Jar File Merger - Eine Erweiterung zu JarSplice). 
 Copyright (c) 2013, Luis Quesada - https://github.com/lquesada
 
-JarSplice (The Fat Jar Creator) was originally published in The Ninja Cave (http://ninjacave.com/).
-JarSplice allows merging jar files and native libraries into a single jar or GNU/Linux, Windows, or Mac OS executable files.
+JarSplice (The Fat Jar Creator) wurde ursprünglich von The Ninja Cave ( http://ninjacave.com/ ) veröffentlicht. JarSplice ermöglicht das Zusammenführen von JAR-Dateien und nativen Bibliotheken in einer JAR- oder ausführbaren Datei von GNU / Linux, Windows oder Mac OS.
 
-However, this tool lacked features such as a command-line interface for integrating it into build chains.
-JarSplice site states that "JarSplice is free for any type and application" and that "the source code for the actual JarSplice application will be under a BSD License".
-Unfortunately, and despite the requests of JarSplice users, it's been almost two years and neither a version with command-line interface support or the source code have been published.
+Dieses Tool verfügte jedoch über keine Funktionen wie eine Befehlszeilenschnittstelle für die Integration in Build-Ketten. Die JarSplice-Website gibt an, dass "JarSplice für jede Art und Anwendung frei ist" und dass "der Quellcode für die eigentliche JarSplice-Anwendung unter einer BSD-Lizenz steht". Leider, und trotz der Anfragen von JarSplice-Benutzern, ist es fast zwei Jahre her. Weder eine Version mit Unterstützung der Befehlszeilenschnittstelle, noch der Quellcode wurden veröffentlicht.
 
-From the stated intention of the authors, and since I really needed this feature, I decided to write an alternative command-line interface launcher, JarSpliceCLI.
 
-Now, as I still wanted to get acquainted with the internals of JarSplice, I've decided to decompile it and implement the command-line interface support right into it.
-Therefore, the source package org.ninjacave.jarsplice contains the source code obtained from decompiling JarSplice using Java Decompiler (http://java.decompiler.free.fr/?q=jdgui) and slightly modified.
+Da ich mich immer noch mit den Interna von JarSplice vertraut machen wollte, habe ich beschlossen, es zu dekompilieren und die Unterstützung für die Befehlszeilenschnittstelle direkt darin zu implementieren. Daher enthält das Quellpaket org.ninjacave.jarsplice den Quellcode, der beim Dekompilieren von JarSplice mit Java Decompiler erhalten und geringfügig geändert wurde.
 
-In the future, I'll implement support for exporting executable files from the command-line, and for exporting and importing projects from the GUI.
+Übersetzt ins deutsche von Adam Jaquet
